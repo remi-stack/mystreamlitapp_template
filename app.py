@@ -1,5 +1,4 @@
 import streamlit as st
-
 import numpy as np
 import pandas as pd
 
@@ -18,8 +17,8 @@ df = pd.DataFrame({
 })
 
 #show code of a check box
-with st.echo():
-    st.checkbox("please check my box")
+# with st.echo():
+#     st.checkbox("please check my box")
 
 # this slider allows the user to select a number of lines
 # to display in the dataframe
